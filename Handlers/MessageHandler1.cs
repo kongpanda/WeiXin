@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace WeiXin.Handler
+namespace WeiXin.Handlers
 {
     public class MessageHandler1 : DelegatingHandler
     {

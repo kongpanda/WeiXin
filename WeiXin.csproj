@@ -82,8 +82,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Handler\MessageHandler1.cs" />
-    <Compile Include="Handler\MessageHandler2.cs" />
+    <Compile Include="Handlers\CheckSignatureHandler.cs" />
+    <Compile Include="Handlers\MessageHandler1.cs" />
+    <Compile Include="Handlers\MessageHandler2.cs" />
+    <Compile Include="Handlers\ServicesHandler.cs" />
+    <Compile Include="Helper\Utilities.cs" />
+    <Compile Include="Message\EventMessage.cs" />
+    <Compile Include="Message\ITemplate.cs" />
+    <Compile Include="Message\Message.cs" />
+    <Compile Include="Message\TextMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
